@@ -10,3 +10,11 @@ $.ajax(`https://www.googleapis.com/youtube/v3/search?key=AIzaSyBZw_Dg7LohwJhi_O7
         $('.display-answer').html(items);
     }
 })
+
+
+
+
+$('#search').submit(function(event) {
+    event.preventDefault();
+    
+})
