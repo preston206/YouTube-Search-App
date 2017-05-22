@@ -27,6 +27,7 @@ main {
 
 form {
     width: 550px;
+    /*height: 70px;*/
     margin-left: auto;
     margin-right: auto;
     border: 1px solid black;
@@ -36,11 +37,36 @@ input {
     width: 425px;
 }
 
-.img-container {
+.prev-next-buttons {
+    height: 30px;
+    width: 690px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 50px;
-    height: 600px;
+    border: 1px solid black;
+}
+
+.img-container {
+    height: 575px;
     width: 700px;
     margin-left: auto;
     margin-right: auto;
+    overflow: auto;
     border: 1px solid black;
+}
+
+button {
+    width: 85px;
+}
+
+#prevBtn {
+    float: left;
+}
+
+#nextBtn {
+    float: right;
+}
+
+.hide {
+    visibility: hidden;
 }
